@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE DIVISAS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="calculardivisa">
+        <h1>CONVERSOR DE DIVISAS</h1>
+
+        <label class="label1" id="valor">ingrese valor</label>
+        <input  type="number" id="inputvalor"><br><br>
+        <label class="label1" id="de">de:</label>
+        <label for="eligemoneda">Elige la moneda</label>
+        <select name="elige moneda" id="de">
+            <option value="dolar">dolar</option>
+            <option value="peso col">peso col</option>
+            <option value="euro">euro</option>
+            <option value="peso mexicano">peso mex</option>
+        </select><br> <br>
+
+        <label for="a">A:</label>
+        <LAbel>elige moneda</LAbel>
+        <select name="elige moneda" id="A">
+            <option value="pesocol">peso col</option>
+            <option value="dolar">dolar</option>
+            <option value="euro">euro</option>
+            <option value="pesomex">peso mex</option>
+        </select>
+
+        <button id="calcular" type="submit">calcular</button>
+
+        <label for="resultado">Resultado</label>
+        <input  id="resultados" readonly>
+
+
+    </form>
+
+<script src="/script.js"></script>
+</body>
+</html>
